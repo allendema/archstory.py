@@ -40,7 +40,7 @@ try:
 	for story in stories:
 		file_url = story.a["onclick"]
 		replacer = file_url.replace("window.download('", "").replace("'); return false;", "")
-		file_name = replacer.split("&")[-5].replace("_nc_ohc=", "")
+		file_name = replacer.split("&")[-5].replace("_nc_ohc=", "")[:7]
 		
 		#print(file_url)
 	
