@@ -3,6 +3,11 @@
 Archives IG stories in your machine. Forever.
 
 
+Note:
+Currently the site used to get the media is not working!
+Will change to another one anytime soon.
+
+
 ## Just enter one username.
 It will create a folder with that name, in the same directory.
 
